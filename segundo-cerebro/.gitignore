@@ -1,0 +1,16 @@
+# Conteúdo pessoal: transcrições e notas não vão para o repositório
+vault/*
+!vault/Videos/
+!vault/Notas/
+!vault/Perguntas/
+vault/Videos/*
+vault/Notas/*
+vault/Perguntas/*
+!vault/**/.gitkeep
+# Índice vetorial, transcrições brutas e áudios temporários
+data/
+*.mp3
+*.mp4
+*.wav
+__pycache__/
+.venv/
